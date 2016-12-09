@@ -1,0 +1,63 @@
+ul.topnav {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav a li {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav a li:hover {background-color: #8BC34A;}
+
+ul.topnav li.icon {display: none;}
+
+ul.topnav form {
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+ul.topnav form input {
+  color: #FFF;
+}
+
+ul.topnav form input:hover {
+  color: #8BC34A;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav a {
+    float: left;
+    clear: both;
+  }
+
+  ul.topnav form {
+    float: left;
+    clear: both;
+  }
+
+}
+
+#footer{
+    clear: both;
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    height: 7vh;
+    color: #f2f2f2;
+}

@@ -1,0 +1,53 @@
+body, html {
+  font-family: Sans-Serif;
+  height: 100%;
+  width: 100%;
+}
+
+.cabecera {
+    width: 100%;
+    float: left;
+    margin: 5px;
+}
+
+.map{
+    width: 85%; 
+    height: 85%;
+    margin: 0 80px;
+}
+
+hgroup h1{
+  float: left;
+  border-right: 1px solid #000;
+  padding-right: 5px;
+}
+
+hgroup p{
+  float: left;
+  color: #9E9E9E;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .map {
+    margin: 0 70px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .map {
+    margin: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .map {
+    margin: 0 35px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .map {
+    margin: 0 20px;
+  }
+}

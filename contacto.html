@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Automóviles Granada</title>
+	    <link rel="stylesheet" href="css/contacto-styles.css">
+		<link rel="stylesheet" href="css/main-styles.css">
+	</head>
+	<body>
+		<div class="cabecera">
+			<img src="img/concesionario.jpg" alt="Concesionario" width="100%">
+		</div>
+	  	<hgroup>
+            <h1>Automóviles Granada</h1>
+        </hgroup>
+
+		<ul class="topnav" id="myTopnav">
+			<a href="index.html"><li>Inicio</li></a>
+		 	<a href="catalogo.html"><li>Catálogo</li></a>
+			<a href="localizacion.html"><li>Localización</li></a>
+			<a href="contacto.html"><li>Contacto</li></a>
+			<a href="quienes-somos.html"><li>Quienes somos</li></a>
+			<a href="registro.html"><li>Registro</li></a>
+		</ul>
+
+		<h2>Formulario de Contacto.</h2>
+
+		<form action="action_page.php">
+
+		  <div class="container">
+		    <label for="asunto">Asunto</label>
+		    <input type="text" placeholder="Introduce el asunto" name="asunto" required>
+
+		    <label for="correo">Correo electrónico</label>
+		    <input type="text" placeholder="Introduce tu correo electrónico" name="correo" required>
+
+		    <label for="mensaje">Mensaje </label>
+      		<textarea name="mensaje" id="textarea" rows="4" cols="50"></textarea>
+
+		    <button type="submit">Enviar</button>
+		  </div>
+
+		</form>
+
+		<footer id = "footer">
+			<p>©Todos los derechos reservados.</p>
+		</footer>
+	</body>
+</html>
